@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: lightcyan;
+}
+
+header{
+    text-align: center;
+    margin:50px;
+    
+}
+#head
+{
+    font-size: 50px;
+    font-family:sans-serif;
+    color:aquamarine;
+}
+h1#result{
+    font-size: 30px;
+    font-family:fantasy;
+    color:blueviolet;
+    text-align: center;
+    margin-bottom: 30px;
+}
+canvas{
+    border:1px solid dodgerblue;
+    background-color: springgreen;
+    text-align:center;
+    
+}
+#game{
+    position:relative;
+    width: 640px;
+    height:320px;
+    margin: 0 auto;
+}
+#tic
+{
+    position: relative;
+    margin: 0 auto;
+    height:318px;
+    width: 318px;
+    display: inline-block;
+    float:left;
+}
+#remember{
+    margin-top: 80px;
+    position:relative;
+    width:318px;
+    height:318px;
+    text-align: center;
+    display: inline-block;
+    float:right;
+}
+p{
+    font-size:25px;
+    margin:15px;
+    color:red;
+}
+h2{
+    font-size:35px;
+    color:orangered;
+}
+button{
+     margin-top:15px;
+     width:200px;
+     height: 50px;
+     font-size: 20px;
+    font-weight:bold;
+    background-color: blue;
+    color:azure;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+canvas:hover{
+    background-color: lightblue;
+}
+button:hover{
+    background:lightblue;
+}
