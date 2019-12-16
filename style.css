@@ -3,7 +3,7 @@
     padding: 0;
 }
 html {
-    background-color: lightcyan;
+    background-color: MidnightBlue;
 }
 
 header{
@@ -26,7 +26,7 @@ h1#result{
 }
 canvas{
     border:1px solid dodgerblue;
-    background-color: springgreen;
+    background-color: Orange;
     text-align:center;
     
 }

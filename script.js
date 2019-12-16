@@ -49,7 +49,8 @@ window.onload = function() {
 					ctx.lineTo(85,85);
 					ctx.moveTo(85,15);
 					ctx.lineTo(15,85);
-					ctx.strokeStyle = "dodgerblue";
+					ctx.strokeStyle = "Brown";
+					ctx.lineWidth=10;
 					ctx.stroke();
 					ctx.closePath();
 					symbol[num-1] = 'X';
@@ -57,8 +58,10 @@ window.onload = function() {
 				else {
 					ctx.beginPath();
 					ctx.arc(50, 50, 35, 0, 2 * Math.PI, false);
-					ctx.strokeStyle = "dodgerblue";
+					ctx.strokeStyle = "Brown";
+					ctx.lineWidth=10;
 					ctx.stroke();
+					
 					ctx.closePath();
 					symbol[num-1] = 'O';
 				}
